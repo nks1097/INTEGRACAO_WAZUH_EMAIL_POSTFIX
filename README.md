@@ -98,6 +98,7 @@ sudo echo "[smtp.gmail.com]:587 SEU_EMAIL@gmail.com:SUA_SENHA_DE_APP" > /etc/pos
 ```bash
 sudo echo "[smtp.gmail.com]:587 natanael1097.3@gmail.com:hlgynutrioxqjegh" > /etc/postfix/sasl_passwd
 ```
+  ![Executando postmap e definindo credenciais no terminal](imagens/5.png)
 
 Gere o arquivo de banco de dados do Postfix (`sasl_passwd.db`) e restrinja as permissões para proteger suas credenciais:
 
@@ -105,8 +106,6 @@ Gere o arquivo de banco de dados do Postfix (`sasl_passwd.db`) e restrinja as pe
 sudo postmap /etc/postfix/sasl_passwd
 sudo chmod 600 /etc/postfix/sasl_passwd /etc/postfix/sasl_passwd.db
 ```
-
-![Executando postmap e definindo credenciais no terminal](imagens/5.png)
 
 Reinicie o serviço do Postfix para carregar as alterações:
 
