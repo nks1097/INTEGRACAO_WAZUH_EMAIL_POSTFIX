@@ -130,7 +130,7 @@ echo "Test mail from postfix" | mail -s "Test Postfix" -r "natanael1097.3@gmail.
 
 Acesse a caixa de entrada (ou caixa de Spam) do seu Gmail e confirme o recebimento da mensagem com o assunto **Test Postfix**.
 
-![E-mail de teste do Postfix recebido no Gmail](imagens/7.png)
+![E-mail de teste do Postfix recebido no Gmail](imagens/8.png)
 
 ---
 
