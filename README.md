@@ -80,7 +80,7 @@ smtp_use_tls = yes
 smtpd_relay_restrictions = permit_mynetworks, permit_sasl_authenticated, defer_unauth_destination
 ```
 
-![Configuração do relayhost no main.cf](imagens/4.png)
+![Configuração do relayhost no main.cf](imagens/1.png)
 
 Salve e feche o arquivo (`Ctrl + O`, `Enter`, `Ctrl + X`).
 
