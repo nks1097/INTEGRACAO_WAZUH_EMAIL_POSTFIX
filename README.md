@@ -189,3 +189,5 @@ Sempre que uma regra de segurança com nível igual ou superior ao `email_alert_
 ![Caixa de entrada do Gmail recebendo alertas do Wazuh](imagens/9.png)
 
 ![Detalhes do e-mail de alerta do Wazuh com log Sysmon](imagens/10.png)
+
+**Video de Referencia** https://www.youtube.com/watch?v=VZqYHyRcuXg&list=PLHjuPxrwcdsZub-nvo_yKgCu-KwSn2qTn&index=8
