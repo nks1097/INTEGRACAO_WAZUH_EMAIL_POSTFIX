@@ -33,17 +33,16 @@ O Gmail não permite o uso da senha pessoal convencional para autenticação de 
 2. Vá na aba **Segurança** e confirme que a **Verificação em duas etapas** está ativada.
 3. No campo de busca da conta, digite **Senhas de app** (ou acesse diretamente a página de Senhas de App).
 4. No campo *Nome do app*, digite um nome identificador (exemplo: `wazuh` ou `teste`).
-
-![Criando Senha de App no Google](imagens/1.png)
-
 5. Clique no botão **Criar**.
-6. Uma janela popup exibirá a **Senha de app gerada** contendo 16 caracteres (exemplo: `hlgy nutr ioxq jegh`).
 
-![Senha de app gerada no Google](imagens/2.png)
+   ![Senha de app gerada no Google](imagens/2.png)
+   
+7. Uma janela popup exibirá a **Senha de app gerada** contendo 16 caracteres (exemplo: `hlgy nutr ioxq jegh`).
+
+   ![Senha de app gerada no Google](imagens/3.png)
 
 📌 **Copie e guarde esta senha de 16 caracteres de forma segura** (remova os espaços ao utilizar nas configurações).
 
-![Lista de Senhas de App ativas](imagens/3.png)
 
 ---
 
