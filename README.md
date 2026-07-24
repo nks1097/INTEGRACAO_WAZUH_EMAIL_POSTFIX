@@ -130,7 +130,7 @@ echo "Test mail from postfix" | mail -s "Test Postfix" -r "natanael1097.3@gmail.
 
 Acesse a caixa de entrada (ou caixa de Spam) do seu Gmail e confirme o recebimento da mensagem com o assunto **Test Postfix**.
 
-![E-mail de teste do Postfix recebido no Gmail](imagens/6.png)
+![E-mail de teste do Postfix recebido no Gmail](imagens/7.png)
 
 ---
 
@@ -186,6 +186,6 @@ Logo após reiniciar o gerenciador, o Wazuh enviará uma notificação automáti
 
 Sempre que uma regra de segurança com nível igual ou superior ao `email_alert_level` for disparada em qualquer agente ou no próprio servidor, um e-mail estruturado contendo detalhes do evento, ID da regra, usuário e log será entregue na sua caixa de entrada!
 
-![Caixa de entrada do Gmail recebendo alertas do Wazuh](imagens/8.png)
+![Caixa de entrada do Gmail recebendo alertas do Wazuh](imagens/9.png)
 
-![Detalhes do e-mail de alerta do Wazuh com log Sysmon](imagens/9.png)
+![Detalhes do e-mail de alerta do Wazuh com log Sysmon](imagens/10.png)
