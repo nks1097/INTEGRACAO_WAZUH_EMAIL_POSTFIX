@@ -88,7 +88,7 @@ Salve e feche o arquivo (`Ctrl + O`, `Enter`, `Ctrl + X`).
 
 ## 6. Passo 4: Configurar as Credenciais de Autenticação (`sasl_passwd`)
 
-Crie o arquivo `/etc/postfix/sasl_passwd` contendo seu e-mail do Gmail e a Senha de Aplicativo criada no Passo 1 (sem espaços):
+Crie o arquivo `/etc/postfix/sasl_passwd` contendo seu e-mail do Gmail e a Senha de Aplicativo criada no Passo 1 (sem espaços) e entre como sudo/root:
 
 ```bash
 sudo echo "[smtp.gmail.com]:587 SEU_EMAIL@gmail.com:SUA_SENHA_DE_APP" > /etc/postfix/sasl_passwd
